@@ -7,7 +7,7 @@ interface FormData {
     phoneNumber: string;
     message: string;
   }
-const page = () => {
+const Page = () => {
     const [formData, setFormData] = useState<FormData>({
         name: '',
         email: '',
@@ -90,4 +90,4 @@ const page = () => {
   }
 
   
-  export default page;
+  export default Page;
