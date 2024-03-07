@@ -1,7 +1,7 @@
 
 
 import Image from "next/image";
-import smileBoy from "../../../public/images/home.svg"
+import smileBoy from "../../public/images/home.svg"
 import Star from "../HelperCompomnents/star/page"
 const page = () => {
     return (
