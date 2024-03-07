@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation'
 
 export const MyNavbar = () => {
   const navLiks=[
-    { id:1 , name:"Home",path:"/home" },
+    { id:1 , name:"Home",path:"/" },
     { id:2 , name:"About",path:"/about" },
     { id:3 , name:"Portofolio",path:"/portofolio" },
     { id:4 , name:"Contact",path:"/contact" },
